@@ -18,8 +18,7 @@ class Create_Mysql(object):
         passwd=cp.get("sql","passwd")
         self.db=cp.get("sql","db")
         charset=cp.get("sql","charset")
-        self.conn = pymysql.connect(host=host, user=user, passwd=passwd, port=port, charset=charset,
-                                    init_command="SET time_zone = '+00:00'")
+        self.conn = pymysql.connect(host=host, user=user, passwd=passwd, port=port, charset=charset)
         self.cur = self.conn.cursor()
     def create_db(self,sql):
         self.cur.execute(sql)
