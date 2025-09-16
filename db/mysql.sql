@@ -18,7 +18,7 @@
 --
 -- Current Database: `python1icx6`
 --
-
+SET TIME_ZONE ='+00:00';
 /*!40000 DROP DATABASE IF EXISTS `python1icx6`*/;
 
 CREATE DATABASE /*!32312 IF NOT EXISTS*/ `python1icx6` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
