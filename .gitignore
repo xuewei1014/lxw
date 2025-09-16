@@ -1,0 +1,7 @@
+.conda
+.idea
+logs
+*.pyc
+test.py
+tmp
+data
